@@ -26,7 +26,7 @@ jobs:
       - name: npm install, build, and test
         run: |
           cd frontend
-          npm install
+          npm install -f
           npm run build --prod
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
