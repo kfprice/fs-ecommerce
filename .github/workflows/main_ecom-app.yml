@@ -51,7 +51,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'ecom-app'
+          app-name: 'kfpricewebapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_16F91798E4BD4E0E9781CCD7F8AD3DC2 }}
           package: .
