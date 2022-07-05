@@ -13,8 +13,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-ecommerce</name>
 	<description>Spring Boot Ecommerce Project</description>
-
+	
+	
 	<properties>
+		<java.version>11</java.version>
   		<sonar.organization>kfprice</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
