@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'kfpricewebappbe'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_50643CB4595A48B5AFFF479C86B0A493 }}
+          publish-profile: ${{ secrets.AZURE_BE }}
           package: '*.jar'
